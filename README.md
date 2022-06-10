@@ -1,0 +1,1 @@
+# lichess-full-zen-mode
