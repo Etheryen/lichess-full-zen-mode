@@ -1,0 +1,16 @@
+{
+  "name": "Lichess full zen mode",
+  "description": "Hides the zen mode toggle button.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.lichess.org/*"],
+      "js": ["hideZen.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
