@@ -1,5 +1,5 @@
-const zentog = document.querySelector('#zentog');
+const zenzone = document.querySelector('#zenzone');
 
-if(zentog) {
-  zentog.style.display = 'none';
+if(zenzone) {
+  zenzone.style.display = 'none';
 }
